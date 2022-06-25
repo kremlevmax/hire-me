@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #ffc450;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__container {
+  display: flex;
+  font-weight: 600;
+  font-size: 24px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 40px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.navbar__logo-container {
+  display: flex;
+  gap: 12px;
+}
+
+.navbar__logo {
+  font-size: 48px;
+}
+
+.navbar__menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__menu-item {
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+.navbar__menu-item:hover {
+  box-shadow: 0 2px 0 0 #8752ff;
+}

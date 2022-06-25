@@ -1,0 +1,19 @@
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+  max-width: 1000px;
+  gap: 170px;
+}
+
+.project-card__screenshot-container {
+  max-width: 400px;
+}
+
+.project-card__screenshot {
+  width: 100%;
+}
+
+.project-card__text-container {
+  flex: 1 1 auto;
+}

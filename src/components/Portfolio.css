@@ -1,0 +1,44 @@
+.portfolio {
+  flex: 1 1 auto;
+  background-color: #ffc450;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.portfolio__header-container {
+  margin: 60px auto 0;
+  text-transform: uppercase;
+  opacity: 0.65;
+  background-color: #8752ff;
+  color: #fff;
+  padding: 4px 8px;
+  margin-bottom: 60px;
+  max-width: 100%;
+}
+
+.portfolio__header {
+}
+
+.portfolio__container {
+  max-width: 1250px;
+  padding: 0 40px;
+  margin: 0 40px;
+  width: 100%;
+}
+
+.portfolio__slider-container {
+}
+
+.portfolio__projects-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 60px;
+}
