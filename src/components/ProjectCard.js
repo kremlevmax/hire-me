@@ -13,6 +13,9 @@ function ProjectCard({ screenshot, name, tools, description }) {
           />
         </picture>
         <div className='project-card__text-container'>
+          <div className='project-card__title-container'>
+            <span className='project-card__title'>{name}</span>
+          </div>
           <div className='project-card__tools-container'>
             <span className='project-card__tools'>Tools: </span>
             {tools.map((tool, index) => {

@@ -52,9 +52,9 @@ function Portfolio() {
         <div className='portfolio__container'>
           <Carousel
             infiniteLoop
-            autoPlay
+            // autoPlay
             showThumbs={false}
-            interval={3000}
+            // interval={3000}
             showStatus={false}
           >
             {cards}

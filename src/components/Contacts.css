@@ -41,17 +41,17 @@
 }
 
 .contacts__header-container {
-  margin: 100px auto;
-  opacity: 0.4;
+  margin: 100px auto 20px;
+  opacity: 0.7;
   padding: 4px 8px;
   width: fit-content;
   text-align: center;
-  width: fit-content;
-  background-color: #50fff9;
+  background-color: #02db38;
 }
 
 .contacts__header {
   text-transform: uppercase;
+  color: #27279e;
 }
 
 .contacts__container {
@@ -60,12 +60,13 @@
 
 .contacts__email-container {
   display: flex;
-  margin: 0 auto 60px;
+  margin: 60px auto;
   position: relative;
   max-width: 500px;
-  padding: 0 40px;
   z-index: 2;
+  justify-content: center;
 }
+
 .contacts__email-container::before {
   content: "";
   position: absolute;

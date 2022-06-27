@@ -19,15 +19,16 @@
   margin: 0 40px;
   background-image: linear-gradient(120deg, #ffc450, #fff6d3);
   background-color: #333;
-  opacity: 0.1;
+  opacity: 0.4;
 }
 
 .about__about-me-container {
   margin: 100px auto;
-  opacity: 0.4;
+  opacity: 0.6;
   padding: 4px 8px;
   width: fit-content;
-  background-color: #50fff9;
+  background-color: #ffb82b;
+  color: #4c00ff;
 }
 
 .about__about-me {
@@ -56,6 +57,10 @@
 .about__text-container {
   margin-left: 40px;
   z-index: 2;
+  background-color: rgba(255, 255, 255, 0.303);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 40px;
 }
 
 .about__text-header-container {
@@ -71,7 +76,7 @@
   content: "";
   position: absolute;
   top: -10%;
-  left: 40%;
+  left: -20%;
   clip-path: polygon(
     20% 0%,
     0% 20%,
@@ -119,12 +124,12 @@
 
 .about__download-button-link {
   border: 0;
-  background: #ffc450;
+  background: #8752ff;
   font-weight: 600;
   padding: 10px 30px;
   border-radius: 4px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 .about__download-button-link:hover {

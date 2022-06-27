@@ -2,8 +2,6 @@ import React from "react";
 import photo from "../images/photo.png";
 import "./About.css";
 import AnimatedPage from "./AnimatedPage";
-import resume from "../files/Max_Kremlev_-_Full_Stack_Developer.pdf";
-import { Link } from "react-router-dom";
 
 function About() {
   return (
