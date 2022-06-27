@@ -1,13 +1,22 @@
 .project-card {
+  padding: 10px;
+}
+
+.project-card__container {
   display: flex;
   justify-content: space-between;
+  border-radius: 4px;
   margin: 0 40px;
-  max-width: 1000px;
   gap: 170px;
+  padding: 60px 90px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 90%;
 }
 
 .project-card__screenshot-container {
   max-width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .project-card__screenshot {

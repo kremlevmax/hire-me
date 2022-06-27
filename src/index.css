@@ -2,6 +2,11 @@
 
 html {
   height: 100%;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
