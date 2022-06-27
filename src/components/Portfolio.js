@@ -6,9 +6,6 @@ import screenshot from "../images/screenshot.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import AnimatedPage from "./AnimatedPage";
 
 function Portfolio() {
