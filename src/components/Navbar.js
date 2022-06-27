@@ -6,8 +6,8 @@ import { NavLink, Outlet } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header>
-      <div className='navbar'>
+    <>
+      <header className='navbar'>
         <div className='navbar__container'>
           <div className='navbar__logo-container'>
             <picture className='navbar__logo'>
@@ -55,9 +55,9 @@ function Navbar() {
             </ul>
           </nav>
         </div>
-      </div>
+      </header>
       <Outlet />
-    </header>
+    </>
   );
 }
 

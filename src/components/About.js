@@ -2,6 +2,8 @@ import React from "react";
 import photo from "../images/photo.png";
 import "./About.css";
 import AnimatedPage from "./AnimatedPage";
+import resume from "../files/Max_Kremlev_-_Full_Stack_Developer.pdf";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -18,26 +20,26 @@ function About() {
           <div className='about__text-container'>
             <div className='about__text-header-container'>
               <h1 className='about__text-header'>
-                I'm Max Kremlev and Frontend Developer
+                Hi, I am Max, Frontend Developer
               </h1>
             </div>
             <div className='about__main-text-container'>
               <span className='about__main-text'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Venenatis urna cursus eget nunc scelerisque viverra mauris.
-                Massa tincidunt dui ut ornare lectus sit amet est. Platea
-                dictumst vestibulum rhoncus est. Semper auctor neque vitae
-                tempus quam. Eu augue ut lectus arcu bibendum. Fames ac turpis
-                egestas maecenas pharetra convallis posuere morbi. Eget felis
-                eget nunc lobortis mattis aliquam faucibus. Pharetra sit amet
-                aliquam id. Sed tempus urna et pharetra pharetra massa. Non
-                curabitur gravida arcu ac tortor dignissim convallis aenean et.
-                Auctor urna nunc id cursus metus aliquam eleifend mi in. Libero
-                justo laoreet sit amet cursus sit amet dictum. Urna condimentum
-                mattis pellentesque id nibh tortor id aliquet.
+                Pro-active and detail-oriented Frontend Developer seeking an
+                entry-level position to utilize skills in coding,
+                troubleshooting, acquiring new skills, and assisting in
+                delivering effective solutions within a regulated time frame.
               </span>
             </div>
+            <a
+              href='https://drive.google.com/file/d/1JGiLWFoyyGsAzl697YawAXiQNzGQT5Mk/view?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+              className='about__download-button-link'
+              download
+            >
+              Download Resume
+            </a>
           </div>
 
           <div className='about__circle' />
