@@ -2,6 +2,12 @@ import React from "react";
 import { EmailForm } from "./EmailForm";
 import "./Contacts.css";
 import AnimatedPage from "./AnimatedPage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faMobileRetro,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Contacts() {
   return (
@@ -14,11 +20,40 @@ function Contacts() {
         </div>
 
         <div className='contacts__container'>
+          <div className='contacts__email-location-telefone-container'>
+            <div className='contacts__data-container'>
+              <div className='contacts__data-icon-container'>
+                <FontAwesomeIcon icon={faLocationDot} />
+              </div>
+              <span className='contacts__text'>Seattle, WA, United States</span>
+            </div>
+
+            <div className='contacts__data-container'>
+              <a className='contacts__text' href='tel:+14253754075'>
+                <div className='contacts__data-icon-container'>
+                  <FontAwesomeIcon icon={faMobileRetro} />
+                </div>
+                +1 (425) 375-4075
+              </a>
+            </div>
+
+            <div className='contacts__data-container'>
+              <a
+                className='contacts__text'
+                href='mailto:kremlevmax.webdev@icloud.com'
+              >
+                <div className='contacts__data-icon-container'>
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </div>
+                kremlevmax.webdev@icloud.com
+              </a>
+            </div>
+          </div>
           <div className='contacts__email-container'>
             <EmailForm />
-            <div className='contacts__circle' />
-            <div className='pacman' />
           </div>
+          <div className='contacts__circle' />
+          <div className='pacman' />
         </div>
       </section>
     </AnimatedPage>

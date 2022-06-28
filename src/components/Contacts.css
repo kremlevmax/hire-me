@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
+  align-items: center;
 }
 
 .contacts::after {
@@ -17,6 +18,7 @@
   background-image: linear-gradient(30deg, #ffc450, #5f3ab3);
   background-color: #333;
   opacity: 0.3;
+  z-index: -1;
 }
 
 .contacts::before {
@@ -38,6 +40,7 @@
   );
   background-color: #333;
   opacity: 0.1;
+  z-index: -1;
 }
 
 .contacts__top {
@@ -68,18 +71,21 @@
 
 .contacts__container {
   position: relative;
-}
-
-.contacts__email-container {
-  display: flex;
-  margin: 0 auto;
-  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
   max-width: 500px;
-  z-index: 2;
-  justify-content: center;
 }
 
-.contacts__email-container::before {
+@media screen and (max-width: 390px) {
+  .contacts__container {
+    padding: 20px;
+  }
+}
+
+.contacts__container::before {
   content: "";
   position: absolute;
   bottom: -30%;
@@ -105,15 +111,54 @@
   opacity: 0.4;
 }
 
+.contacts__email-location-telefone-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.contacts__data-container {
+  display: flex;
+}
+
+.contacts__data-icon-container {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.contacts__text {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 390px) {
+  .contacts__data-icon-container {
+    font-size: 16px;
+  }
+
+  .contacts__text {
+    font-size: 16px;
+  }
+}
+
+.contacts__email-container {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+}
+
 .contacts__circle {
   position: absolute;
-  top: -19%;
+  top: -5%;
   right: 15%;
   border: 14px solid #deff50;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  z-index: 1;
   opacity: 0.4;
 }
 
@@ -131,6 +176,6 @@
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
-  z-index: -1;
   opacity: 0.4;
+  z-index: -1;
 }
