@@ -26,7 +26,6 @@ export const EmailForm = () => {
     e.target.reset();
   };
 
-  console.log(form.current);
   return (
     <form ref={form} onSubmit={sendEmail} className='email-form'>
       <label className='email-form__name-label'>Your Name:</label>

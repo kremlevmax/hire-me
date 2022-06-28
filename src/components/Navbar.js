@@ -11,7 +11,9 @@ function Navbar() {
         <div className='navbar__container'>
           <div className='navbar__logo-container'>
             <picture className='navbar__logo'>
-              <FontAwesomeIcon icon={faCat} />
+              <NavLink className='navbar__menu-link-cat' to='/'>
+                <FontAwesomeIcon icon={faCat} />
+              </NavLink>
             </picture>
           </div>
           <nav className='navbar__menu-container'>

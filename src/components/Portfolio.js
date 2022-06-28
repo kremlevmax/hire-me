@@ -2,7 +2,6 @@ import React from "react";
 import "./Portfolio.css";
 import ProjectCard from "./ProjectCard";
 import screenshot from "../images/screenshot.png";
-// import Slider from "react-slick";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
