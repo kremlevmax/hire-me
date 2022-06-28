@@ -1,4 +1,5 @@
 .navbar {
+  flex: 0 1 80px;
   background-color: #8752ff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 3;
@@ -8,8 +9,14 @@
   margin: 0 auto;
   display: flex;
   max-width: 1280px;
-  min-height: 80px;
   padding: 0 40px;
+  height: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .navbar__container {
+    padding: 0 28px;
+  }
 }
 
 .navbar__logo-container {
@@ -37,7 +44,10 @@
   padding: 0;
 }
 
-.navbar__menu-item {
+@media screen and (max-width: 575px) {
+  .navbar__menu {
+    gap: 20px;
+  }
 }
 
 .navbar__menu-link {

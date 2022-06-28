@@ -7,10 +7,11 @@ function About() {
   return (
     <AnimatedPage>
       <main className='about'>
-        <div className='about__about-me-container'>
-          <span className='about__about-me'>About Me</span>
+        <div className='about__top-part'>
+          <div className='about__about-me-container'>
+            <span className='about__about-me'>About Me</span>
+          </div>
         </div>
-
         <div className='about__container'>
           <picture className='about__image-container'>
             <img className='about__image' src={photo} alt='Max Kremlev' />

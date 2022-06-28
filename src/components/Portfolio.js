@@ -14,19 +14,22 @@ function Portfolio() {
       screenshot: screenshot,
       name: "Project Name 1",
       tools: ["React", "HTML", "CSS"],
-      description: "Project 1 Description",
+      description:
+        "Project 1 Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
     {
       screenshot: screenshot,
       name: "Project Name 2",
       tools: ["React", "HTML", "CSS"],
-      description: "Project 2 Description",
+      description:
+        "Project 2 Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
     {
       screenshot: screenshot,
       name: "Project Name 3",
       tools: ["React", "HTML", "CSS"],
-      description: "Project 3 Description",
+      description:
+        "Project 3 Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
   ];
 
@@ -43,8 +46,10 @@ function Portfolio() {
   return (
     <AnimatedPage>
       <section className='portfolio'>
-        <div className='portfolio__header-container'>
-          <span className='portfolio__header'>Portfolio</span>
+        <div className='portfolio__top'>
+          <div className='portfolio__header-container'>
+            <span className='portfolio__header'>Portfolio</span>
+          </div>
         </div>
         <div className='portfolio__container'>
           <Carousel
