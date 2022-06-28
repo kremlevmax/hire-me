@@ -26,19 +26,26 @@ export const EmailForm = () => {
     e.target.reset();
   };
 
+  console.log(form.current);
   return (
     <form ref={form} onSubmit={sendEmail} className='email-form'>
       <label className='email-form__name-label'>Your Name:</label>
-      <input type='text' name='user_name' className='email-form__name-input' />
+      <input
+        type='text'
+        name='user_name'
+        className='email-form__name-input'
+        required
+      />
       <label className='email-form__email-label'>Your Email:</label>
       <input
         type='email'
         name='user_email'
         className='email-form__email-input'
         id='email'
+        required
       />
       <label className='email-form__message-label'>Message:</label>
-      <textarea name='message' className='email-form__message-input' />
+      <textarea name='message' className='email-form__message-input' required />
       <input
         type='submit'
         value='Submit'

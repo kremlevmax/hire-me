@@ -56,8 +56,9 @@ function Portfolio() {
             infiniteLoop
             // autoPlay
             showThumbs={false}
-            // interval={3000}
+            interval={5000}
             showStatus={false}
+            swipeable
           >
             {cards}
           </Carousel>
