@@ -7,8 +7,10 @@ function Contacts() {
   return (
     <AnimatedPage>
       <section className='contacts'>
-        <div className='contacts__header-container'>
-          <span className='contacts__header'>Contacts</span>
+        <div className='contacts__top'>
+          <div className='contacts__header-container'>
+            <span className='contacts__header'>Contacts</span>
+          </div>
         </div>
 
         <div className='contacts__container'>

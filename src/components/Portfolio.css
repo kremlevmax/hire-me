@@ -9,14 +9,14 @@
 }
 
 .portfolio__top {
-  flex: 1 1 200px;
+  flex: 0 1 200px;
   display: flex;
   align-items: center;
 }
 
 @media screen and (max-width: 575px) {
   .portfolio__top {
-    flex: 1 1 100px;
+    flex: 0 1 100px;
   }
 }
 
