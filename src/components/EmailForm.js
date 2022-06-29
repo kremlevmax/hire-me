@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./EmailForm.css";
 
-export const EmailForm = () => {
+export const EmailForm = ({ showModal }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -23,6 +23,7 @@ export const EmailForm = () => {
           console.log(error.text);
         }
       );
+    showModal();
     e.target.reset();
   };
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { EmailForm } from "./EmailForm";
 import "./Contacts.css";
 import AnimatedPage from "./AnimatedPage";
@@ -8,10 +8,14 @@ import {
   faMobileRetro,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { Modal } from "./Modal";
 
 function Contacts() {
+  const [showModal, setShowModal] = useState(false);
+  console.log(showModal);
   return (
     <AnimatedPage>
+      {showModal && <Modal hideModal={() => setShowModal(false)} />}
       <section className='contacts'>
         <div className='contacts__top'>
           <div className='contacts__header-container'>
@@ -50,7 +54,7 @@ function Contacts() {
             </div>
           </div>
           <div className='contacts__email-container'>
-            <EmailForm />
+            <EmailForm showModal={() => setShowModal(true)} />
           </div>
           <div className='contacts__circle' />
           <div className='pacman' />
