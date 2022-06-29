@@ -1,12 +1,17 @@
 import React from "react";
 import "./Modal.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
+import { faCommentDots, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const Modal = ({ hideModal }) => {
   return (
     <div className='modal__dark-background'>
       <div className='modal__modal-container'>
+        <FontAwesomeIcon
+          icon={faXmark}
+          className='modal__close-button'
+          onClick={hideModal}
+        />
         <div className='modal__first-line-container'>
           <span className='modal__first-line'>
             I'll get in touch with you ASAP
