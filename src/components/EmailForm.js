@@ -8,21 +8,21 @@ export const EmailForm = ({ showModal }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     "service_rn2uir5",
-    //     "template_5bx5uxh",
-    //     form.current,
-    //     "tTVPsRNaKWKmIyq4N"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_rn2uir5",
+        "template_5bx5uxh",
+        form.current,
+        "tTVPsRNaKWKmIyq4N"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     showModal();
     e.target.reset();
   };
