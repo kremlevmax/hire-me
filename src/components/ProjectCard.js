@@ -1,7 +1,10 @@
 import React from "react";
 import "./ProjectCard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-function ProjectCard({ screenshot, name, tools, description }) {
+function ProjectCard({ screenshot, name, tools, description, source, online }) {
   return (
     <section className='project-card'>
       <div className='project-card__container'>
@@ -36,6 +39,24 @@ function ProjectCard({ screenshot, name, tools, description }) {
           </div>
           <div className='project-card___description-container'>
             <span className='project-card___description'>{description}</span>
+          </div>
+          <div className='project-cars__links-container'>
+            <a
+              href={source}
+              target='_blank'
+              rel='noreferrer'
+              className='project-cars__link'
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href={online}
+              target='_blank'
+              rel='noreferrer'
+              className='project-cars__link'
+            >
+              <FontAwesomeIcon icon={faEarthAmerica} />
+            </a>
           </div>
         </div>
       </div>

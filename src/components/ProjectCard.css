@@ -1,13 +1,15 @@
 .project-card {
+  /* margin-bottom: 20px; */
+  padding: 0 40px;
 }
 
 .project-card__container {
   display: flex;
+  flex-direction: column;
   border-radius: 8px;
   justify-content: center;
-  margin: 0 40px;
   gap: 40px;
-  padding: 30px 40px;
+  padding: 40px 60px;
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -35,8 +37,6 @@
 
 .project-card__text-container {
   flex: 0 2 auto;
-  padding-right: 40px;
-  max-width: 600px;
   text-align: justify;
 }
 
@@ -85,4 +85,20 @@
 .project-card___description {
   font-weight: 400;
   font-size: 20px;
+}
+
+.project-cars__links-container {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.project-cars__link {
+  font-size: 1.8rem;
+  color: black;
+  transition: all 400ms ease;
+}
+
+.project-cars__link:hover {
+  color: #ffb82b;
 }

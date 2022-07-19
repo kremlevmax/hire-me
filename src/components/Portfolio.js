@@ -1,30 +1,36 @@
 import React from "react";
-import "./Portfolio.css";
 import ProjectCard from "./ProjectCard";
-import screenshot from "../images/screenshot.png";
+import visitAfrica from "../images/visitAfrica.png";
+import adoptGoodBoy from "../images/adoptGoodBoy.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "./Portfolio.css";
+
 import { Carousel } from "react-responsive-carousel";
 import AnimatedPage from "./AnimatedPage";
 
 function Portfolio() {
   const projectCards = [
     {
-      screenshot: screenshot,
-      name: "Project Name 1",
-      tools: ["React", "HTML", "CSS"],
+      screenshot: visitAfrica,
+      name: "Visit Africa",
+      tools: ["HTML", "JavaScript", "Sass", "Boxicons"],
       description:
-        "Project 1 Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Responsive landing page layout with a burger menu and a video background built with HTML, Sass and vanilla JavaScript",
+      source: "https://github.com/kremlevmax/visit-africa",
+      online: "https://kremlevmax.github.io/visit-africa/",
     },
     {
-      screenshot: screenshot,
-      name: "Project Name 2",
-      tools: ["React", "HTML", "CSS"],
+      screenshot: adoptGoodBoy,
+      name: "Adopt a Good Boy",
+      tools: ["HTML", "Sass", "JavaScript", "Formspree", "Swiper.js"],
       description:
-        "Project 2 Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Responsive landing page layout  built with HTML, Sass and vanilla JavaScript",
+      source: "https://github.com/kremlevmax/sass-project",
+      online: "https://kremlevmax.github.io/sass-project/",
     },
     {
-      screenshot: screenshot,
+      screenshot: visitAfrica,
       name: "Project Name 3",
       tools: ["React", "HTML", "CSS"],
       description:
@@ -39,6 +45,8 @@ function Portfolio() {
       name={card.name}
       tools={card.tools}
       description={card.description}
+      source={card.source}
+      online={card.online}
     />
   ));
 
