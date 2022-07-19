@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import visitAfrica from "../images/visitAfrica.png";
 import adoptGoodBoy from "../images/adoptGoodBoy.png";
+import todoList from "../images/todoList.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./Portfolio.css";
@@ -11,6 +12,22 @@ import AnimatedPage from "./AnimatedPage";
 
 function Portfolio() {
   const projectCards = [
+    {
+      screenshot: todoList,
+      name: "ToDo app",
+      tools: [
+        "React",
+        "HTML",
+        "CSS",
+        "React Router",
+        "Firebase Authentication",
+        "Cloud Firestore",
+      ],
+      description:
+        "Responsive landing page layout with a burger menu and a video background built with HTML, Sass and vanilla JavaScript",
+      source: "https://github.com/kremlevmax/todo-list",
+      online: "https://kremlevmax.github.io/todo-list/",
+    },
     {
       screenshot: visitAfrica,
       name: "Visit Africa",
