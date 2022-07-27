@@ -53,3 +53,11 @@
   width: 100%;
   gap: 60px;
 }
+
+.control-dots {
+  bottom: -10px;
+}
+
+.carousel-slider {
+  padding-bottom: 20px;
+}

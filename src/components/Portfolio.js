@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import visitAfrica from "../images/visitAfrica.png";
 import adoptGoodBoy from "../images/adoptGoodBoy.png";
 import todoList from "../images/todoList.png";
+import reactogram from "../images/reactogram.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./Portfolio.css";
@@ -12,6 +13,22 @@ import AnimatedPage from "./AnimatedPage";
 
 function Portfolio() {
   const projectCards = [
+    {
+      screenshot: reactogram,
+      name: "Reactogram",
+      tools: [
+        "React",
+        "HTML",
+        "CSS",
+        "Firebase Firestore",
+        "Firebase Cloud Storage",
+        "Framer Motion",
+      ],
+      description:
+        "Upload and view your favorite pictures at this responsive page",
+      source: "https://github.com/kremlevmax/reactogram",
+      online: "https://kremlevmax.github.io/reactogram/",
+    },
     {
       screenshot: todoList,
       name: "ToDo app",
@@ -24,7 +41,7 @@ function Portfolio() {
         "Cloud Firestore",
       ],
       description:
-        "Responsive landing page layout with a burger menu and a video background built with HTML, Sass and vanilla JavaScript",
+        "Save your daily routine todos, mark them as done and delete them at this responsive page with Firebase Authentication",
       source: "https://github.com/kremlevmax/todo-list",
       online: "https://kremlevmax.github.io/todo-list/",
     },
@@ -45,13 +62,6 @@ function Portfolio() {
         "Responsive landing page layout  built with HTML, Sass and vanilla JavaScript",
       source: "https://github.com/kremlevmax/sass-project",
       online: "https://kremlevmax.github.io/sass-project/",
-    },
-    {
-      screenshot: visitAfrica,
-      name: "Project Name 3",
-      tools: ["React", "HTML", "CSS"],
-      description:
-        "Project 3 Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     },
   ];
 
@@ -78,7 +88,6 @@ function Portfolio() {
         <div className='portfolio__container'>
           <Carousel
             infiniteLoop
-            // autoPlay
             showThumbs={false}
             interval={5000}
             showStatus={false}
