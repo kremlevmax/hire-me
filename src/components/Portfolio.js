@@ -4,6 +4,7 @@ import visitAfrica from "../images/visitAfrica.png";
 import adoptGoodBoy from "../images/adoptGoodBoy.png";
 import todoList from "../images/todoList.png";
 import reactogram from "../images/reactogram.png";
+import blog from "../images/blog.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./Portfolio.css";
@@ -13,6 +14,22 @@ import AnimatedPage from "./AnimatedPage";
 
 function Portfolio() {
   const projectCards = [
+    {
+      screenshot: blog,
+      name: "Blog app",
+      tools: [
+        "React",
+        "Redux Toolkit",
+        "HTML",
+        "CSS",
+        "Firebase Firestore",
+        "Firebase Cloud Storage",
+      ],
+      description:
+        "A blog application with implementation of firebase authentication and keeping of blog posts in firebase cloud store",
+      source: "https://github.com/kremlevmax/blog-app-redux-toolkit",
+      online: "https://kremlevmax.github.io/blog-app-redux-toolkit/",
+    },
     {
       screenshot: reactogram,
       name: "Reactogram",
