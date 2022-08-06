@@ -10,7 +10,7 @@
 }
 
 .portfolio__top {
-  flex: 0 1 160px;
+  flex: 0 1 120px;
   display: flex;
   align-items: center;
 }
@@ -32,7 +32,7 @@
 @media screen and (max-width: 989px) {
   .portfolio__header-container {
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .portfolio__header {

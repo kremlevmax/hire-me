@@ -44,7 +44,7 @@
 }
 
 .contacts__top {
-  flex: 0 1 200px;
+  flex: 0 1 140px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,6 +77,8 @@
   padding: 40px;
   width: 100%;
   max-width: 500px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 @media screen and (max-width: 390px) {
@@ -154,7 +156,7 @@
 .contacts__circle {
   position: absolute;
   top: -5%;
-  right: 15%;
+  right: -30%;
   border: 14px solid #deff50;
   border-radius: 50%;
   width: 50px;
@@ -166,8 +168,8 @@
   position: absolute;
   width: 0px;
   height: 0px;
-  top: -110px;
-  left: 10px;
+  top: -100px;
+  left: -140px;
   border-right: 60px solid transparent;
   border-top: 60px solid #ffff00;
   border-left: 60px solid #ffff00;

@@ -53,7 +53,7 @@ function About() {
               </p>
               <p>
                 <span className='about__text_bold'>UI Libraries: </span>
-                FramerJS, Sass, CSS Modules, Material UI, Boxicons, Font Awesome
+                Sass, CSS Modules, FramerJS, Material UI, Boxicons, Font Awesome
               </p>
               <p>
                 <span className='about__text_bold'>Tools: </span>
