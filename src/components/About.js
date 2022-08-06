@@ -57,7 +57,7 @@ function About() {
               </p>
               <p>
                 <span className='about__text_bold'>Tools: </span>
-                Cypress, Jest, Git, webpack,
+                Jira, Cypress, Jest, Git, webpack
               </p>
             </div>
             <div className='about__download-button'>
