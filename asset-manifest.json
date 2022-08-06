@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bbd4fa1.css",
+    "main.css": "/static/css/main.7e22c12f.css",
     "main.js": "/static/js/main.a57a0320.js",
     "static/js/787.f615d3f1.chunk.js": "/static/js/787.f615d3f1.chunk.js",
     "static/media/visitAfrica.png": "/static/media/visitAfrica.23afd8a0ab249996f818.png",
@@ -11,12 +11,12 @@
     "static/media/photo.png": "/static/media/photo.95b682f1b9c21ddd20b5.png",
     "static/media/blog.png": "/static/media/blog.696f3268173b521bd70a.png",
     "index.html": "/index.html",
-    "main.8bbd4fa1.css.map": "/static/css/main.8bbd4fa1.css.map",
+    "main.7e22c12f.css.map": "/static/css/main.7e22c12f.css.map",
     "main.a57a0320.js.map": "/static/js/main.a57a0320.js.map",
     "787.f615d3f1.chunk.js.map": "/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bbd4fa1.css",
+    "static/css/main.7e22c12f.css",
     "static/js/main.a57a0320.js"
   ]
 }
