@@ -16,9 +16,9 @@ function Navbar() {
               </NavLink>
             </picture>
           </div>
-          <nav className='navbar__menu-container'>
-            <ul className='navbar__menu'>
-              <li className='navbar__menu-item'>
+          <div className='navbar__menu-container'>
+            <div className='navbar__menu'>
+              <div className='navbar__menu-item'>
                 <NavLink
                   className={(navData) =>
                     navData.isActive
@@ -29,8 +29,8 @@ function Navbar() {
                 >
                   About me
                 </NavLink>
-              </li>
-              <li className='navbar__menu-item'>
+              </div>
+              <div className='navbar__menu-item'>
                 <NavLink
                   className={(navData) =>
                     navData.isActive
@@ -41,8 +41,8 @@ function Navbar() {
                 >
                   Portfolio
                 </NavLink>
-              </li>
-              <li className='navbar__menu-item'>
+              </div>
+              <div className='navbar__menu-item'>
                 <NavLink
                   className={(navData) =>
                     navData.isActive
@@ -53,9 +53,9 @@ function Navbar() {
                 >
                   Contacts
                 </NavLink>
-              </li>
-            </ul>
-          </nav>
+              </div>
+            </div>
+          </div>
         </div>
       </header>
       <Outlet />

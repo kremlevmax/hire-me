@@ -19,7 +19,8 @@ function Portfolio() {
       screenshot: lusaka,
       name: "Lusaka School page",
       tools: ["NextJS", "HTML", "CSS Modules", "Sass"],
-      description: "NextJS Responsive Landing page",
+      description:
+        "Responsive Landing page built with NextJS, Sass and CSS Modules",
       source: "https://github.com/kremlevmax/lusaka",
       online: "https://lusaka.vercel.app/",
     },

@@ -81,9 +81,11 @@
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 520px) {
   .contacts__container {
-    padding: 20px;
+    /* padding: 44px; */
+    box-shadow: none;
+    background-color: transparent;
   }
 }
 
