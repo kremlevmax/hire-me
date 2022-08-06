@@ -5,6 +5,7 @@ import AnimatedPage from "./AnimatedPage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome//free-brands-svg-icons";
 import { faMobileRetro, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import resume from "../files/Max_Kremlev_Resume_Frontend_Developer.pdf";
 
 function About() {
   return (
@@ -62,7 +63,7 @@ function About() {
             </div>
             <div className='about__download-button'>
               <a
-                href='https://drive.google.com/file/d/1JGiLWFoyyGsAzl697YawAXiQNzGQT5Mk/view?usp=sharing'
+                href={resume}
                 target='_blank'
                 rel='noreferrer'
                 className='about__download-button-link'
