@@ -19,8 +19,9 @@ function ProjectCard({ screenshot, name, tools, description, source, online }) {
           <div className='project-card__title-container'>
             <span className='project-card__title'>{name}</span>
           </div>
+          <div className='project-card__separation-line' />
           <div className='project-card__tools-container'>
-            <span className='project-card__tools'>Tools: </span>
+            <span className='project-card__tools'>Stack: </span>
             {tools.map((tool, index) => {
               if (index === tools.length - 1) {
                 return (
@@ -37,9 +38,12 @@ function ProjectCard({ screenshot, name, tools, description, source, online }) {
               }
             })}
           </div>
+
           <div className='project-card___description-container'>
             <span className='project-card___description'>{description}</span>
           </div>
+          <div className='project-card__separation-line' />
+
           <div className='project-cars__links-container'>
             <a
               href={source}
@@ -47,15 +51,16 @@ function ProjectCard({ screenshot, name, tools, description, source, online }) {
               rel='noreferrer'
               className='project-cars__link'
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} /> Source
             </a>
+
             <a
               href={online}
               target='_blank'
               rel='noreferrer'
               className='project-cars__link'
             >
-              <FontAwesomeIcon icon={faEarthAmerica} />
+              <FontAwesomeIcon icon={faEarthAmerica} /> Deploy
             </a>
           </div>
         </div>

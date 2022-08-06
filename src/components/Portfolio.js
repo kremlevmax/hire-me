@@ -5,6 +5,7 @@ import adoptGoodBoy from "../images/adoptGoodBoy.png";
 import todoList from "../images/todoList.png";
 import reactogram from "../images/reactogram.png";
 import blog from "../images/blog.png";
+import lusaka from "../images/lusaka.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./Portfolio.css";
@@ -14,6 +15,14 @@ import AnimatedPage from "./AnimatedPage";
 
 function Portfolio() {
   const projectCards = [
+    {
+      screenshot: lusaka,
+      name: "Lusaka School page",
+      tools: ["NextJS", "HTML", "CSS Modules", "Sass"],
+      description: "NextJS Responsive Landing page",
+      source: "https://github.com/kremlevmax/lusaka",
+      online: "https://lusaka.vercel.app/",
+    },
     {
       screenshot: blog,
       name: "Blog app",

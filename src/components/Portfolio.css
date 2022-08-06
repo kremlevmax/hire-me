@@ -26,10 +26,15 @@
   opacity: 0.8;
   background-color: #8752ff;
   padding: 4px 8px;
-  text-align: center;
-  width: fit-content;
+  /* text-align: center;
+  width: fit-content; */
 }
-
+@media screen and (max-width: 989px) {
+  .portfolio__header-container {
+    text-align: left;
+    font-size: 24px;
+  }
+}
 .portfolio__header {
   color: #fff;
 }

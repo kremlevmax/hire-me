@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 575px) {
   .project-card__container {
-    margin: 0 24px;
+    margin: 0;
     padding: 10px;
     box-shadow: none;
     background-color: transparent;
@@ -33,6 +33,8 @@
 
 .project-card__screenshot {
   width: 100%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .project-card__text-container {
@@ -46,8 +48,27 @@
   }
 }
 
+.project-card___description-container {
+}
+
 .project-card__title-container {
-  margin-bottom: 12px;
+}
+
+.project-card__separation-line {
+  height: 0px;
+  width: 100%;
+  background: #ffb82b;
+  opacity: 0.3;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+  .project-card__separation-line {
+    height: 4px;
+
+    background: #8752ff;
+  }
 }
 
 .project-card__title {
@@ -71,9 +92,9 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 450px) {
   .project-card__title {
-    font-size: 26px;
+    font-size: 20px;
     letter-spacing: 0.3px;
   }
 
@@ -90,15 +111,31 @@
 .project-cars__links-container {
   margin-top: 2rem;
   display: flex;
+  justify-content: center;
   gap: 0.8rem;
 }
 
 .project-cars__link {
-  font-size: 1.8rem;
-  color: black;
+  border: 0;
+  background: #8752ff;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   transition: all 400ms ease;
+  color: #ffb82b;
 }
 
 .project-cars__link:hover {
-  color: #ffb82b;
+  background: #ffb82b;
+  color: #8752ff;
+}
+
+@media screen and (max-width: 380px) {
+  .project-cars__link {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
 }

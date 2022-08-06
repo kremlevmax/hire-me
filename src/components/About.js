@@ -3,11 +3,7 @@ import photo from "../images/photo.png";
 import "./About.css";
 import AnimatedPage from "./AnimatedPage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faInstagramSquare,
-} from "@fortawesome//free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome//free-brands-svg-icons";
 import { faMobileRetro, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
@@ -30,12 +26,39 @@ function About() {
               </h1>
             </div>
             <div className='about__main-text-container'>
-              <span className='about__main-text'>
-                Pro-active and detail-oriented Frontend Developer seeking an
-                entry-level position to utilize skills in coding,
+              <p className='about__main-text'>
+                I'm a pro-active and detail-oriented developer and currently
+                seeking an entry-level position to utilize skills in coding,
                 troubleshooting, acquiring new skills, and assisting in
-                delivering effective solutions within a regulated time frame.
-              </span>
+                delivering effective solutions.
+              </p>
+              <p>
+                <span className='about__text_bold'>Location: </span>Seattle, WA.
+                Open to relocation
+              </p>
+              <p>
+                <span className='about__text_bold'>Job Model: </span>On-site,
+                Remote or Hybrid
+              </p>
+              <p>
+                <span className='about__text_bold'>Languages: </span>HTML, CSS,
+                JavaScript, TypeScript
+              </p>
+              <p>
+                <span className='about__text_bold'>
+                  Frameworks and State/Data Management:{" "}
+                </span>
+                React, React Router, NextJS, Redux Toolkit, Firebase, Axios,
+                Apollo Client, GraphQL, Strapi CMS, MongoDB, Formspree
+              </p>
+              <p>
+                <span className='about__text_bold'>UI Libraries: </span>
+                FramerJS, Sass, CSS Modules, Material UI, Boxicons, Font Awesome
+              </p>
+              <p>
+                <span className='about__text_bold'>Tools: </span>
+                Cypress, Jest, Git, webpack,
+              </p>
             </div>
             <div className='about__download-button'>
               <a
@@ -52,7 +75,7 @@ function About() {
             <div className='about__social-links-container'>
               <div className='about__social-links-description-container'>
                 <span className='about__social-links-description'>
-                  You can find me here:
+                  Find me here:
                 </span>
               </div>
               <div className='about__social-links'>
@@ -70,14 +93,6 @@ function About() {
                     href='https://www.linkedin.com/in/max-kremlev/'
                   >
                     <FontAwesomeIcon icon={faLinkedin} />
-                  </a>
-                </div>
-                <div className='about__social-link'>
-                  <a
-                    className='about__social-link-a'
-                    href='https://www.instagram.com/krmlvmx/'
-                  >
-                    <FontAwesomeIcon icon={faInstagramSquare} />
                   </a>
                 </div>
                 <div className='about__social-link'>

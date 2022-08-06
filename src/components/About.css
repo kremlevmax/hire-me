@@ -68,6 +68,7 @@
   z-index: 5;
   max-width: 400px;
   min-width: 200px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 575px) {
@@ -98,7 +99,7 @@
 
 .about__text-header-container {
   max-width: 400px;
-  line-height: 3.5em;
+  line-height: 3em;
 }
 
 .about__text-header {
@@ -158,10 +159,21 @@
   font-weight: 400;
   text-align: justify;
   margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.about__text_bold {
+  font-weight: 600;
 }
 
 .about__download-button {
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 575px) {
+  .about__download-button {
+    text-align: center;
+  }
 }
 
 .about__download-button-link {
@@ -209,6 +221,15 @@
 .about__social-links {
   display: flex;
   gap: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .about__social-links-container {
+    text-align: center;
+  }
+  .about__social-links {
+    justify-content: center;
+  }
 }
 
 .about__triangle-container {
