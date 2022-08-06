@@ -8,7 +8,9 @@
 .navbar__container {
   margin: 0 auto;
   display: flex;
+  align-items: center;
   display: -webkit-flex;
+  -webkit-align-items: center;
 
   max-width: 1280px;
   padding: 0 40px;
