@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0741ca40.css",
-    "main.js": "/static/js/main.3e2a44ce.js",
+    "main.css": "/static/css/main.5fa599b1.css",
+    "main.js": "/static/js/main.e614f0e9.js",
     "static/js/787.f615d3f1.chunk.js": "/static/js/787.f615d3f1.chunk.js",
     "static/media/visitAfrica.png": "/static/media/visitAfrica.23afd8a0ab249996f818.png",
     "static/media/lusaka.png": "/static/media/lusaka.9f5a57f729d4954cbdac.png",
@@ -11,12 +11,12 @@
     "static/media/photo.png": "/static/media/photo.95b682f1b9c21ddd20b5.png",
     "static/media/blog.png": "/static/media/blog.696f3268173b521bd70a.png",
     "index.html": "/index.html",
-    "main.0741ca40.css.map": "/static/css/main.0741ca40.css.map",
-    "main.3e2a44ce.js.map": "/static/js/main.3e2a44ce.js.map",
+    "main.5fa599b1.css.map": "/static/css/main.5fa599b1.css.map",
+    "main.e614f0e9.js.map": "/static/js/main.e614f0e9.js.map",
     "787.f615d3f1.chunk.js.map": "/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0741ca40.css",
-    "static/js/main.3e2a44ce.js"
+    "static/css/main.5fa599b1.css",
+    "static/js/main.e614f0e9.js"
   ]
 }
