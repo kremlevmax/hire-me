@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.09fa9ab4.css",
-    "main.js": "/static/js/main.19a36ebd.js",
+    "main.js": "/static/js/main.7e84b613.js",
     "static/js/787.f615d3f1.chunk.js": "/static/js/787.f615d3f1.chunk.js",
-    "static/media/visitAfrica.png": "/static/media/visitAfrica.23afd8a0ab249996f818.png",
-    "static/media/lusaka.png": "/static/media/lusaka.9f5a57f729d4954cbdac.png",
-    "static/media/reactogram.png": "/static/media/reactogram.b0da36a545e56517c067.png",
+    "static/media/visitAfrica.png": "/static/media/visitAfrica.a0f045c6d491cbf679de.png",
+    "static/media/lusaka.png": "/static/media/lusaka.78572ad1bfeb59cc7b71.png",
     "static/media/adoptGoodBoy.png": "/static/media/adoptGoodBoy.850ba69953c2680beec4.png",
     "static/media/todoList.png": "/static/media/todoList.5b0f3222d663fcd1295c.png",
+    "static/media/reactogram.png": "/static/media/reactogram.a84d99d022fabcc0b9ca.png",
+    "static/media/blog.png": "/static/media/blog.2c09aad8316d2257e036.png",
     "static/media/photo.png": "/static/media/photo.95b682f1b9c21ddd20b5.png",
-    "static/media/blog.png": "/static/media/blog.696f3268173b521bd70a.png",
     "static/media/Max_Kremlev_Resume_Frontend_Developer.pdf": "/static/media/Max_Kremlev_Resume_Frontend_Developer.ad5da4b0d12c2c584cf7.pdf",
     "index.html": "/index.html",
     "main.09fa9ab4.css.map": "/static/css/main.09fa9ab4.css.map",
-    "main.19a36ebd.js.map": "/static/js/main.19a36ebd.js.map",
+    "main.7e84b613.js.map": "/static/js/main.7e84b613.js.map",
     "787.f615d3f1.chunk.js.map": "/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09fa9ab4.css",
-    "static/js/main.19a36ebd.js"
+    "static/js/main.7e84b613.js"
   ]
 }
