@@ -60,7 +60,7 @@ function ProjectCard({ screenshot, name, tools, description, source, online }) {
               rel='noreferrer'
               className='project-cars__link'
             >
-              <FontAwesomeIcon icon={faEarthAmerica} /> Deploy
+              <FontAwesomeIcon icon={faEarthAmerica} /> Live
             </a>
           </div>
         </div>

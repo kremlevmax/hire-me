@@ -1,0 +1,97 @@
+section {
+  flex: 0 1 465px;
+  opacity: 1;
+  width: 100%;
+  background-color: #ffb82b;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+}
+
+.poster__img {
+  position: absolute;
+  bottom: -10px;
+  z-index: 5;
+  filter: contrast(1.3);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 12%;
+}
+
+.poster__frontend,
+.poster__css,
+.poster__react,
+.poster__html,
+.poster__nextjs,
+.poster__sass,
+.poster__redux,
+.poster__graphql,
+.poster__git {
+  position: absolute;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+
+.poster__frontend {
+  font-weight: 800;
+  font-size: 5.2rem;
+  top: -2%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.poster__css {
+  /* font-size: 1.8rem; */
+  right: 2%;
+  bottom: 32%;
+}
+
+.poster__react {
+  font-size: 3rem;
+  right: 5%;
+  top: 27%;
+}
+
+.poster__html {
+  font-size: 2rem;
+  left: 1%;
+  bottom: 28%;
+}
+
+.poster__nextjs {
+  text-transform: none;
+  /* font-size: 1.9rem; */
+  left: 1%;
+  top: 36%;
+}
+
+.poster__sass {
+  font-size: 3rem;
+  left: 3%;
+  top: 15%;
+}
+
+.poster__redux {
+  text-transform: none;
+  font-size: 2.5rem;
+  right: 5%;
+  top: 10%;
+}
+
+.poster__graphql {
+  text-transform: none;
+  /* font-size: 1.7rem; */
+  right: 1%;
+  top: 80%;
+}
+
+.poster__git {
+  text-transform: none;
+  font-size: 2.7rem;
+  left: 3%;
+  bottom: -3%;
+}

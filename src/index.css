@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap");
 
 html {
   height: 100%;
@@ -17,7 +17,7 @@ html {
 body {
   height: 100%;
   margin: 0;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Karla", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,4 +28,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1,
+h2,
+h3,
+h4,
+img,
+section {
+  margin: 0;
+  padding: 0;
 }

@@ -1,7 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCat } from "@fortawesome/free-solid-svg-icons";
 import { NavLink, Outlet } from "react-router-dom";
 
 function Navbar() {
@@ -9,13 +7,6 @@ function Navbar() {
     <>
       <header className='navbar'>
         <div className='navbar__container'>
-          <div className='navbar__logo-container'>
-            <picture className='navbar__logo'>
-              <NavLink className='navbar__menu-link-cat' to='/'>
-                <FontAwesomeIcon icon={faCat} />
-              </NavLink>
-            </picture>
-          </div>
           <div className='navbar__menu-container'>
             <div className='navbar__menu'>
               <div className='navbar__menu-item'>

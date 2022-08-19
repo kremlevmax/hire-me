@@ -6,20 +6,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome//free-brands-svg-icons";
 import { faMobileRetro, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import resume from "../files/Max_Kremlev_Resume_Frontend_Developer.pdf";
+import Poster from "./Poster";
 
 function About() {
   return (
     <AnimatedPage>
       <main className='about'>
-        <div className='about__top-part'>
-          <div className='about__about-me-container'>
-            <span className='about__about-me'>About Me</span>
-          </div>
-        </div>
         <div className='about__container'>
-          <picture className='about__image-container'>
-            <img className='about__image' src={photo} alt='Max Kremlev' />
-          </picture>
+          <Poster />
+
           <div className='about__text-container'>
             <div className='about__text-header-container'>
               <h1 className='about__text-header'>
@@ -110,13 +105,6 @@ function About() {
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className='about__circle' />
-          <div className='about__triangle-container'>
-            <div className='about__triangle'>
-              <div className='about__inner-triangle' />
             </div>
           </div>
         </div>
