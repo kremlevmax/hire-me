@@ -30,7 +30,7 @@
 
 .about__download-button-inside:active {
   background: #ffb82b;
-  color: black;
+  border: 2px solid #ffb82b;
 }
 
 .about__social-link {

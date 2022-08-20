@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutInfo.css";
 import { motion } from "framer-motion";
+import AboutSocials from "./AboutSocials";
 
 const AbooutInfo = () => {
   return (
@@ -45,13 +46,15 @@ const AbooutInfo = () => {
           </p>
           <p>
             <span className='about__text_bold'>UI Libraries: </span>
-            Sass, CSS Modules, FramerJS, Material UI, Boxicons, Font Awesome
+            Sass, CSS Modules, FramerJS, Material UI, Boxicons, Font Awesome,
+            Styled Components
           </p>
           <p>
             <span className='about__text_bold'>Tools: </span>
             Jira, Cypress, Jest, Git, webpack
           </p>
         </div>
+        <AboutSocials />
       </motion.div>
     </section>
   );

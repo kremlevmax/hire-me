@@ -1,6 +1,7 @@
 .poster {
   display: flex;
   flex: 0 1 465px;
+  z-index: 2;
 }
 @media screen and (max-width: 900px) {
   section {
