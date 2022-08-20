@@ -16,7 +16,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.3 }}
           className='poster__img'
           src={me}
           alt='Me'
@@ -25,7 +25,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 1, duration: 1 }}
+          transition={{ delay: 0.3, duration: 0.6 }}
           className='poster__frontend'
         >
           Frontend
@@ -35,7 +35,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 2, duration: 1 }}
+          transition={{ delay: 0.6, duration: 0.6 }}
           className='poster__css'
         >
           CSS
@@ -44,7 +44,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 2.2, duration: 1 }}
+          transition={{ delay: 0.9, duration: 0.6 }}
           className='poster__react'
         >
           React
@@ -53,7 +53,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 2.4, duration: 1 }}
+          transition={{ delay: 1.2, duration: 0.6 }}
           className='poster__html'
         >
           HTML
@@ -62,7 +62,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 2.8, duration: 1 }}
+          transition={{ delay: 1.5, duration: 0.6 }}
           className='poster__nextjs'
         >
           NextJS
@@ -71,7 +71,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 2.6, duration: 1 }}
+          transition={{ delay: 0.9, duration: 0.6 }}
           className='poster__sass'
         >
           SASS
@@ -80,7 +80,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1 }}
+          transition={{ delay: 0.9, duration: 0.6 }}
           className='poster__redux'
         >
           Redux
@@ -89,7 +89,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1 }}
+          transition={{ delay: 1.5, duration: 0.6 }}
           className='poster__graphql'
         >
           GraphQL
@@ -98,7 +98,7 @@ const Poster = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1 }}
+          transition={{ delay: 1.2, duration: 0.6 }}
           className='poster__git'
         >
           Git
