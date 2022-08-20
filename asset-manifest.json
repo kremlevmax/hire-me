@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.09fa9ab4.css",
-    "main.js": "/static/js/main.7e84b613.js",
+    "main.css": "/static/css/main.cf5ea7fa.css",
+    "main.js": "/static/js/main.50a30e2a.js",
     "static/js/787.f615d3f1.chunk.js": "/static/js/787.f615d3f1.chunk.js",
     "static/media/visitAfrica.png": "/static/media/visitAfrica.a0f045c6d491cbf679de.png",
     "static/media/lusaka.png": "/static/media/lusaka.78572ad1bfeb59cc7b71.png",
@@ -9,15 +9,15 @@
     "static/media/todoList.png": "/static/media/todoList.5b0f3222d663fcd1295c.png",
     "static/media/reactogram.png": "/static/media/reactogram.a84d99d022fabcc0b9ca.png",
     "static/media/blog.png": "/static/media/blog.2c09aad8316d2257e036.png",
-    "static/media/photo.png": "/static/media/photo.95b682f1b9c21ddd20b5.png",
     "static/media/Max_Kremlev_Resume_Frontend_Developer.pdf": "/static/media/Max_Kremlev_Resume_Frontend_Developer.ad5da4b0d12c2c584cf7.pdf",
+    "static/media/me.webp": "/static/media/me.28a3b3a8b0b5d465e142.webp",
     "index.html": "/index.html",
-    "main.09fa9ab4.css.map": "/static/css/main.09fa9ab4.css.map",
-    "main.7e84b613.js.map": "/static/js/main.7e84b613.js.map",
+    "main.cf5ea7fa.css.map": "/static/css/main.cf5ea7fa.css.map",
+    "main.50a30e2a.js.map": "/static/js/main.50a30e2a.js.map",
     "787.f615d3f1.chunk.js.map": "/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09fa9ab4.css",
-    "static/js/main.7e84b613.js"
+    "static/css/main.cf5ea7fa.css",
+    "static/js/main.50a30e2a.js"
   ]
 }
