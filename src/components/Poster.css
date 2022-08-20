@@ -1,11 +1,23 @@
-section {
+.poster {
+  display: flex;
   flex: 0 1 465px;
+}
+@media screen and (max-width: 900px) {
+  section {
+    width: 100%;
+  }
+}
+
+.about__poster {
+  flex: 0 1 455px;
   opacity: 1;
   width: 100%;
   background-color: #ffb82b;
   overflow: hidden;
   position: relative;
   height: 600px;
+  min-width: 320px;
+  max-width: 455px;
 }
 
 .poster__img {
@@ -42,6 +54,47 @@ section {
   right: 0;
   margin: 0 auto;
   width: fit-content;
+}
+
+@media screen and (max-width: 1230px) {
+  .poster__frontend {
+    top: 0;
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .poster__frontend {
+    top: 0;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .poster__frontend {
+    top: 0;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .poster__frontend {
+    top: 0;
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .poster__frontend {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .poster__frontend {
+    top: 0;
+    font-size: 3.5rem;
+  }
 }
 
 .poster__css {
