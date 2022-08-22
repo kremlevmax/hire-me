@@ -27,6 +27,12 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+  .project-description__desc {
+    margin: 2.2rem;
+  }
+}
+
 .project-description__desc-text {
   animation: opacity-load 0.5s;
 }

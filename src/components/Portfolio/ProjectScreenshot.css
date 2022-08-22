@@ -62,9 +62,10 @@
 
 @media screen and (max-width: 1065px) {
   .project-screenshot__inlay-text {
-    padding-left: 1.8rem;
+    padding-left: 1.2rem;
   }
 }
+
 .project-screenshot__inlay-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;

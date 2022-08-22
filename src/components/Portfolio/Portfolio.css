@@ -24,5 +24,6 @@
   .portfolio__container {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr 1fr;
+    min-height: 500px;
   }
 }

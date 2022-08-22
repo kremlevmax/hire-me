@@ -5,7 +5,7 @@ import { faCommentDots, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export const Modal = ({ hideModal }) => {
   return (
-    <div className='modal__dark-background'>
+    <div className='modal__dark-background' onClick={hideModal}>
       <div className='modal__modal-container'>
         <FontAwesomeIcon
           icon={faXmark}

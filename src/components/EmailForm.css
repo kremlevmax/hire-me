@@ -16,11 +16,21 @@
 .email-form__email-input {
   margin-bottom: 24px;
   height: 32px;
-  border-radius: 4px;
-  border: 3px solid #ffc450;
-  outline-color: #ffaa00;
+  border: 3px solid #ffcd6a;
+  /* outline-color: #ffaa00; */
   outline: none;
   background-color: rgba(255, 255, 255, 0.4);
+  transition: all 0.6s ease;
+}
+
+.email-form__name-input:focus,
+.email-form__message-input:focus,
+.email-form__email-input:focus {
+  border: 3px solid #ffb82b;
+}
+
+.active {
+  border: 3px solid #ffb82b;
 }
 
 .email-form__message-input {
@@ -30,11 +40,12 @@
 .email-form__submit-button {
   margin: 0 auto;
   border: 0;
-  border-radius: 4px;
-  background: #ffc450;
+  background: #ffcd6a;
+  color: black;
   height: 40px;
   width: 110px;
   font-weight: 600;
+  transition: all 0.6s ease;
   cursor: pointer;
 }
 
