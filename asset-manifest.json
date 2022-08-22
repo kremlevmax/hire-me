@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.474e5d7b.css",
-    "main.js": "/static/js/main.44ad79cf.js",
+    "main.css": "/static/css/main.9f605013.css",
+    "main.js": "/static/js/main.ecd486fe.js",
     "static/js/787.f615d3f1.chunk.js": "/static/js/787.f615d3f1.chunk.js",
     "static/media/adoptGoodBoy.png": "/static/media/adoptGoodBoy.850ba69953c2680beec4.png",
     "static/media/visitAfrica.png": "/static/media/visitAfrica.d1a7ac219bfe4fa0c7ce.png",
@@ -12,12 +12,12 @@
     "static/media/todoList.png": "/static/media/todoList.1bfd53b06533321c3a0c.png",
     "static/media/blog.png": "/static/media/blog.6e7e4e8c57f5a1497953.png",
     "index.html": "/index.html",
-    "main.474e5d7b.css.map": "/static/css/main.474e5d7b.css.map",
-    "main.44ad79cf.js.map": "/static/js/main.44ad79cf.js.map",
+    "main.9f605013.css.map": "/static/css/main.9f605013.css.map",
+    "main.ecd486fe.js.map": "/static/js/main.ecd486fe.js.map",
     "787.f615d3f1.chunk.js.map": "/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.474e5d7b.css",
-    "static/js/main.44ad79cf.js"
+    "static/css/main.9f605013.css",
+    "static/js/main.ecd486fe.js"
   ]
 }
