@@ -2,10 +2,12 @@
   display: flex;
   flex: 0 1 465px;
   z-index: 2;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 900px) {
   section {
+    flex: 0 1 auto;
     width: 100%;
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutPoster.css";
-import me from "../../images/me.webp";
+import me from "../../images/me.png";
 
 const Poster = () => {
   return (
