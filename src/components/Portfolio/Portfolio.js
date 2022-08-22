@@ -6,6 +6,7 @@ import ProjectDescription from "./ProjectDescription.js";
 import ProjectNumber from "./ProjectNumber.js";
 import ProjectScreenshot from "./ProjectScreenshot.js";
 import ProjectStack from "./ProjectStack.js";
+import { motion } from "framer-motion";
 
 function Portfolio() {
   const [index, setIndex] = useState(0);
@@ -30,7 +31,11 @@ function Portfolio() {
     index < 0 ? (index + 1).toString() : "0" + (index + 1).toString();
 
   return (
-    <section className='portfolio'>
+    <motion.section
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6 }}
+      className='portfolio'
+    >
       <div className='portfolio__container'>
         <ProjectStack stack={projectCards[index].tools} />
         <ProjectScreenshot
@@ -47,7 +52,7 @@ function Portfolio() {
           live={projectCards[index].online}
         />
       </div>
-    </section>
+    </motion.section>
   );
 }
 

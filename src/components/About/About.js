@@ -3,10 +3,15 @@ import "./About.css";
 import Poster from "./AboutPoster";
 import AbooutInfo from "./AboutInfo";
 import AboutResume from "./AboutResume";
+import { motion } from "framer-motion";
 
 function About() {
   return (
-    <main className='about'>
+    <motion.main
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6 }}
+      className='about'
+    >
       <div className='about__container'>
         <div className='about__poster-and-resume'>
           <Poster />
@@ -14,7 +19,7 @@ function About() {
         </div>
         <AbooutInfo />
       </div>
-    </main>
+    </motion.main>
   );
 }
 

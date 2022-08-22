@@ -8,6 +8,12 @@
   animation: opacity-load 0.5s;
 }
 
+@media screen and (max-width: 885px) {
+  .project-number__span {
+    font-size: 8rem;
+  }
+}
+
 @keyframes resume-load {
   0% {
     opacity: 0;
