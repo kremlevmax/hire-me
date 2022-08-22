@@ -5,6 +5,7 @@
   height: 100%;
   z-index: 4;
   top: 0;
+  animation: modal-load 0.5s;
 }
 
 .modal__modal-container {
@@ -25,6 +26,16 @@
   justify-content: center;
   align-items: center;
   font-weight: 500;
+  animation: modal-load 0.5s;
+}
+
+@keyframes modal-load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .modal__close-button {

@@ -4,12 +4,13 @@ import "./Contacts.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Modal } from "./Modal";
+import { motion } from "framer-motion";
 
 function Contacts() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section>
+    <motion.section exit={{ opacity: 0 }} transition={{ duration: 0.6 }}>
       {showModal && <Modal hideModal={() => setShowModal(false)} />}
       <section className='contacts'>
         <div className='contacts__container'>
@@ -40,7 +41,7 @@ function Contacts() {
           </div>
         </div>
       </section>
-    </section>
+    </motion.section>
   );
 }
 

@@ -2,11 +2,21 @@ import React from "react";
 import "./Modal.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 export const Modal = ({ hideModal }) => {
   return (
-    <div className='modal__dark-background' onClick={hideModal}>
-      <div className='modal__modal-container'>
+    <motion.div
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6 }}
+      className='modal__dark-background'
+      onClick={hideModal}
+    >
+      <motion.div
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.6 }}
+        className='modal__modal-container'
+      >
         <FontAwesomeIcon
           icon={faXmark}
           className='modal__close-button'
@@ -25,7 +35,7 @@ export const Modal = ({ hideModal }) => {
         <div className='modal__button-container' onClick={hideModal}>
           <span className='modal__button'>OK</span>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
