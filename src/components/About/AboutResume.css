@@ -1,5 +1,17 @@
 .about__download-resume {
   max-width: 455px;
+  animation: resume-load 1s ease;
+}
+
+@keyframes resume-load {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .about__download-button-link {

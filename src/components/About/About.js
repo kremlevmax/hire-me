@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Poster from "./Poster";
+import Poster from "./AboutPoster";
 import AbooutInfo from "./AboutInfo";
 import AboutResume from "./AboutResume";
 

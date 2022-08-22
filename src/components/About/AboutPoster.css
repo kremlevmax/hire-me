@@ -3,6 +3,7 @@
   flex: 0 1 465px;
   z-index: 2;
 }
+
 @media screen and (max-width: 900px) {
   section {
     width: 100%;
@@ -19,6 +20,7 @@
   height: 600px;
   min-width: 320px;
   max-width: 455px;
+  animation: poster-load 1s ease;
 }
 
 .poster__img {
@@ -30,6 +32,7 @@
   right: 0;
   margin: 0 auto;
   top: 12%;
+  animation: words-load 1s ease;
 }
 
 .poster__frontend,
@@ -45,6 +48,7 @@
   font-weight: 800;
   text-transform: uppercase;
   font-size: 2.2rem;
+  animation: words-load 1s ease;
 }
 
 .poster__frontend {
@@ -148,4 +152,24 @@
   font-size: 2.7rem;
   left: 3%;
   bottom: -3%;
+}
+
+@keyframes poster-load {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes words-load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -10,6 +10,18 @@
   background: #f9f9f9;
   padding: 2rem;
   margin-top: 3rem;
+  animation: text-load 1s ease;
+}
+
+@keyframes text-load {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 900px) {

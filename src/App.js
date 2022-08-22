@@ -3,9 +3,9 @@ import "normalize.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
-import About from "./components/About";
+import About from "./components/About/About";
 import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Contacts from "./components/Contacts";
 
 function App() {

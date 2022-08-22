@@ -3,10 +3,12 @@ import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
 function ProjectCard({ screenshot, name, tools, description, source, online }) {
   return (
-    <section className='project-card'>
+    <SwiperSlide className='project-card'>
       <div className='project-card__container'>
         <picture className='project-card__screenshot-container'>
           <img
@@ -65,7 +67,7 @@ function ProjectCard({ screenshot, name, tools, description, source, online }) {
           </div>
         </div>
       </div>
-    </section>
+    </SwiperSlide>
   );
 }
 
