@@ -9,13 +9,17 @@
 .social-links {
   display: flex;
   align-items: baseline;
-  gap: 0.8rem;
 }
 
 .social-link__a {
   font-size: 1.4rem;
   color: black;
 }
+
+.social-link:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
 .social-link__a #email {
   font-size: 1.5rem;
 }
