@@ -4,6 +4,12 @@
   animation: description-load 1s ease;
 }
 
+@media screen and (max-width: 610px) {
+  .project-description {
+    grid-row: 2;
+  }
+}
+
 @keyframes description-load {
   0% {
     opacity: 0;
@@ -56,6 +62,13 @@
 
 .project-description__desc span {
   line-height: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .project-description__desc span {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
 }
 
 .project-description__links {

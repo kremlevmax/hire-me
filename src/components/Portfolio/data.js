@@ -72,13 +72,4 @@ export const projectCards = [
     source: "https://github.com/kremlevmax/visit-africa",
     online: "https://kremlevmax.github.io/visit-africa/",
   },
-  {
-    screenshot: adoptGoodBoy,
-    name: "Adopt a Good Boy",
-    tools: ["HTML", "Sass", "JavaScript", "Formspree", "Swiper.js"],
-    description:
-      "Responsive landing page layout  built with HTML, Sass and vanilla JavaScript",
-    source: "https://github.com/kremlevmax/sass-project",
-    online: "https://kremlevmax.github.io/sass-project/",
-  },
 ];
