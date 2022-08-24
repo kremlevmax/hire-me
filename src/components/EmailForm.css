@@ -4,6 +4,16 @@
   flex-direction: column;
   max-width: 420px;
   width: 100%;
+  animation: form-load 0.7s;
+}
+
+@keyframes form-load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .email-form__name-label,
