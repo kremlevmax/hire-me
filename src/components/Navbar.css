@@ -41,7 +41,7 @@
   grid-template-columns: 1fr auto;
   align-items: center;
   -webkit-align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 
 .navbar__social-links {
