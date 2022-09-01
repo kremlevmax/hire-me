@@ -47,7 +47,6 @@ const AbooutInfo = () => {
             Jira, Cypress, Jest, Git, webpack
           </p>
         </div>
-        <AboutSocials />
       </div>
     </section>
   );
