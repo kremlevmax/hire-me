@@ -1,10 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import "./Burger.css";
 
-const Burger = () => {
-  const [burger, setBurger] = useState(true);
-
+const Burger = ({ burger, setBurger }) => {
   const burgerStyle = burger
     ? "burger burger--vortex is-active"
     : "burger burger--vortex";

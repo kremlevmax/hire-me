@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink, Outlet } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,6 +6,9 @@ import { faGithub, faLinkedin } from "@fortawesome//free-brands-svg-icons";
 import Burger from "./Burger";
 
 function Navbar() {
+  const [burger, setBurger] = useState(true);
+
+  const menuClasses = burger ? "navbar__menu open" : "navbar__menu";
   return (
     <>
       <header className='navbar'>
@@ -33,8 +36,8 @@ function Navbar() {
                 </a>
               </div>
             </div>
-            <Burger />
-            {/* <div className='navbar__menu'>
+            <Burger burger={burger} setBurger={setBurger} />
+            <div className={menuClasses}>
               <div className='navbar__menu-item'>
                 <NavLink
                   className={(navData) =>
@@ -71,7 +74,7 @@ function Navbar() {
                   Contacts
                 </NavLink>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </header>

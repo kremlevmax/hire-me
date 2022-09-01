@@ -1,97 +1,104 @@
 .burger {
-  padding: 15px 15px;
-  display: inline-block;
-  cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-  overflow: visible;
+  display: none;
 }
 
-.burger:hover {
-  opacity: 0.7;
-}
-.burger.is-active:hover {
-  opacity: 0.7;
-}
-.burger.is-active .burger-inner,
-.burger.is-active .burger-inner::before,
-.burger.is-active .burger-inner::after {
-  background-color: #000;
-}
+@media screen and (max-width: 500px) {
+  .burger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+    z-index: 3;
+  }
 
-.burger-box {
-  width: 40px;
-  height: 24px;
-  display: inline-block;
-  position: relative;
-}
+  .burger:hover {
+    opacity: 0.7;
+  }
+  .burger.is-active:hover {
+    opacity: 0.7;
+  }
+  .burger.is-active .burger-inner,
+  .burger.is-active .burger-inner::before,
+  .burger.is-active .burger-inner::after {
+    background-color: #000;
+  }
 
-.burger-inner {
-  display: block;
-  top: 50%;
-  margin-top: -2px;
-}
-.burger-inner,
-.burger-inner::before,
-.burger-inner::after {
-  width: 40px;
-  height: 4px;
-  background-color: #000;
-  border-radius: 4px;
-  position: absolute;
-  transition-property: transform;
-  transition-duration: 0.15s;
-  transition-timing-function: ease;
-}
-.burger-inner::before,
-.burger-inner::after {
-  content: "";
-  display: block;
-}
-.burger-inner::before {
-  top: -10px;
-}
-.burger-inner::after {
-  bottom: -10px;
-}
+  .burger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+  }
 
-.burger--vortex .burger-inner {
-  transition-duration: 0.2s;
-  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-}
-.burger--vortex .burger-inner::before,
-.burger--vortex .burger-inner::after {
-  transition-duration: 0s;
-  transition-delay: 0.1s;
-  transition-timing-function: linear;
-}
-.burger--vortex .burger-inner::before {
-  transition-property: top, opacity;
-}
-.burger--vortex .burger-inner::after {
-  transition-property: bottom, transform;
-}
+  .burger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+  }
+  .burger-inner,
+  .burger-inner::before,
+  .burger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+  }
+  .burger-inner::before,
+  .burger-inner::after {
+    content: "";
+    display: block;
+  }
+  .burger-inner::before {
+    top: -10px;
+  }
+  .burger-inner::after {
+    bottom: -10px;
+  }
 
-.burger--vortex.is-active .burger-inner {
-  transform: rotate(765deg);
-  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-}
-.burger--vortex.is-active .burger-inner::before,
-.burger--vortex.is-active .burger-inner::after {
-  transition-delay: 0s;
-}
-.burger--vortex.is-active .burger-inner::before {
-  top: 0;
-  opacity: 0;
-}
-.burger--vortex.is-active .burger-inner::after {
-  bottom: 0;
-  transform: rotate(90deg);
+  .burger--vortex .burger-inner {
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .burger--vortex .burger-inner::before,
+  .burger--vortex .burger-inner::after {
+    transition-duration: 0s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+  }
+  .burger--vortex .burger-inner::before {
+    transition-property: top, opacity;
+  }
+  .burger--vortex .burger-inner::after {
+    transition-property: bottom, transform;
+  }
+
+  .burger--vortex.is-active .burger-inner {
+    transform: rotate(765deg);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .burger--vortex.is-active .burger-inner::before,
+  .burger--vortex.is-active .burger-inner::after {
+    transition-delay: 0s;
+  }
+  .burger--vortex.is-active .burger-inner::before {
+    top: 0;
+    opacity: 0;
+  }
+  .burger--vortex.is-active .burger-inner::after {
+    bottom: 0;
+    transform: rotate(90deg);
+  }
 }

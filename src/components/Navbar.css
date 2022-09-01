@@ -62,6 +62,21 @@
   padding: 0;
 }
 
+@media screen and (max-width: 500px) {
+  .navbar__menu {
+    position: absolute;
+    grid-template-columns: 1fr;
+    background: white;
+    top: 0;
+    right: -100%;
+    padding: 6rem;
+  }
+
+  .open {
+    right: 0;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .navbar__menu {
     gap: 20px;
@@ -81,14 +96,25 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 500px) {
+  .navbar__menu-link {
+    font-size: 2rem;
+  }
+}
+
 .navbar__menu-link-active {
   text-decoration: none;
   position: relative;
   color: black;
   opacity: 1;
   font-size: 1.3rem;
-
   font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar__menu-link-active {
+    font-size: 2rem;
+  }
 }
 
 .navbar__menu-link-active::after {
