@@ -1,14 +1,23 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome//free-brands-svg-icons";
 import Burger from "./Burger";
+import { useEffect } from "react";
 
 function Navbar() {
-  const [burger, setBurger] = useState(true);
+  const [burger, setBurger] = useState(false);
+  const location = useLocation();
 
-  const menuClasses = burger ? "navbar__menu open" : "navbar__menu";
+  const menuClasses = burger ? "navbar__menu open" : "closed navbar__menu";
+
+  useEffect(() => {
+    if (burger) {
+      setBurger(false);
+    }
+  }, [location]);
+
   return (
     <>
       <header className='navbar'>
